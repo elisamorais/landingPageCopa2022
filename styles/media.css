@@ -21,7 +21,7 @@
     }
 
     
-    ul {
+    #menuPrincipal {
         text-align: center;
     }
 
@@ -33,7 +33,9 @@
         font-weight: bold;
         align-self: center;
         font-size: 13px;
-    
+    }
+    #imgJogador {
+        width: 100%;
     }
 
 }

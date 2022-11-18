@@ -1,10 +1,7 @@
 body {
     background-image: url(../imagens/campoo.jpg);
     font-family: poppinslight;
-    max-width: 1200px;
     color: white;
-    margin: 10px 100px 10px 100px;
-       
 }
 
 header {
@@ -20,9 +17,10 @@ h1 { color: #ffdf00;
     font-size: 70px;
     font-weight:bold;
 }
- li {
+#menuPrincipal a {
     display: inline-block;
-    margin: 15px;
+    margin: 5px;
+    
     background-color: #002776;
     border-radius: 8px 2px;
     padding: 8px;
@@ -103,7 +101,7 @@ input {
 }
 
 #imgJogador {
-    width: 508px;
+    width: 50%;
 }
 
 
