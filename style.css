@@ -1,0 +1,109 @@
+body {
+    background-image: url(../imagens/campoo.jpg);
+    font-family: poppinslight;
+    max-width: 1200px;
+    color: white;
+    margin: 10px 100px 10px 100px;
+       
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+h1 { color: #ffdf00;
+    font-weight: 15px;
+    font-size: 70px;
+    font-weight:bold;
+}
+ li {
+    display: inline-block;
+    margin: 15px;
+    background-color: #002776;
+    border-radius: 8px 2px;
+    padding: 8px;
+    border: #ffdf00;
+ }
+
+ a {
+    color: white;
+    font-weight: bold;
+
+ }
+
+ a:hover {
+    color:  #ffdf00;
+    transition: 0.3s all;
+ }
+
+ h2 {
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bolder;
+}
+
+p {
+    font-family: poppinssemibold;
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: bold;
+    background-color: azure;
+    color:#002776
+}
+
+span {
+    font-weight: bolder;
+    color: #ffdf00;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+form [type='submit'] {
+    height: 40px;
+    width: 25%;
+    color: #002776;
+    background-color: #ffdf00;
+    font-weight: bold;
+    align-self: center;
+
+}
+
+form [type='submit']:hover {
+    cursor: pointer;
+    align-items: center;
+}
+
+input {
+    background-color: #002776;
+    color: #ffff;
+    margin: 5px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;    
+}
+
+#imgJogador {
+    width: 508px;
+}
+
+
