@@ -1,7 +1,8 @@
 body {
-    background-image: url(../imagens/campoo.jpg);
+    background-image: url(../imagens/campoGrama.webp);
     font-family: poppinslight;
     color: white;
+    
 }
 
 header {
@@ -20,7 +21,6 @@ h1 { color: #ffdf00;
 #menuPrincipal a {
     display: inline-block;
     margin: 5px;
-    
     background-color: #002776;
     border-radius: 8px 2px;
     padding: 8px;
